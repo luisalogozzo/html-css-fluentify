@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: museo-sans, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: #fff;
+}
+
 header {
   background-color: #0D325A;
   /* height: 500px; */
@@ -12,7 +19,7 @@ header {
 }
 
 a {
-  color: #fff
+  color: #fff;
 }
 
 .header-container {
@@ -50,9 +57,13 @@ a {
 }
 .header-nav ul li {
   display: inline;
+  padding: 0 5px;
 }
 .header-nav ul li a {
   text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 nav a img {
@@ -65,12 +76,37 @@ nav a img {
 }
 
 .header-bottom {
+  position: relative;
   width: 80%;
   margin: 0 auto;
   height: 430px;
   border: 1px solid green;
 }
 
+.header-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.header-title h1 {
+  margin-bottom: 10px;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.title-button {
+  padding: 15px 10px;
+  background-color: #7cbb03;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+}
 /* FINE HEADER */
 /* INIZIO MAIN */
 .main-header-container {
