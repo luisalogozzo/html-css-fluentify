@@ -29,7 +29,7 @@ a {
 .header-row {
   margin: 0 auto;
   width: 80%;
-  height: 42px;
+  height: 70px;
   background-color: #0D325A;
   border: 1px solid green;
 }
@@ -54,12 +54,16 @@ a {
   text-decoration: none;
 }
 
-
-
 .header-right {
   float: right;
 }
 
+.header-bottom {
+  width: 80%;
+  margin: 0 auto;
+  height: 430px;
+  border: 1px solid green;
+}
 
 /* FINE HEADER */
 /* INIZIO MAIN */
