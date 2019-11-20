@@ -5,8 +5,10 @@
 }
 
 header {
-
   background-color: #0D325A;
+  /* height: 500px; */
+  border: 1px solid green;
+
 }
 
 a {
@@ -14,14 +16,25 @@ a {
 }
 
 .header-container {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/oldman.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+  height: 500px;
+  border: 1px solid green;
+}
+
+.header-row {
   margin: 0 auto;
   width: 80%;
-  height: 500px;
+  height: 42px;
   background-color: #0D325A;
   border: 1px solid green;
 }
 
-.header-container {
+.header-row::after {
   content: '';
   display: table;
   clear: both;
