@@ -19,7 +19,7 @@ a {
   width: 100%;
   margin: 0 auto;
   background-image: url(../img/oldman.png);
-  background-size: 60%;
+  background-size: 55%;
   background-repeat: no-repeat;
   background-position: 110% 110%;
   height: 500px;
@@ -30,6 +30,7 @@ a {
   margin: 0 auto;
   width: 80%;
   height: 70px;
+  line-height: 70px;
   background-color: #0D325A;
   border: 1px solid green;
 }
@@ -52,6 +53,11 @@ a {
 }
 .header-nav ul li a {
   text-decoration: none;
+}
+
+nav a img {
+ padding-right: 55px;
+ transform: translateY(10px);
 }
 
 .header-right {
