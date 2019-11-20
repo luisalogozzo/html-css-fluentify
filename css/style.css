@@ -187,38 +187,26 @@ nav a img {
   width: calc(100% / 3);
 }
 
-.main-top-col-center {
+.main-col {
   float: left;
   height: 538px;
   width: calc(100% / 3);
-  background-color: green;
-}
-
-.main-top-col-right {
-  height: 538px;
-  float: left;
-  width: calc(100% / 3);
-  background-color: pink;
-}
-
-.main-top-col-left {
   text-align: center;
   padding: 0px 15px;
 }
 
-.main-top-col-left img {
+.main-col img {
   width: 150px;
   height: 160px;
   margin: 20px 0;
 }
 
-.main-top-col-left h4 {
+.main-col h4 {
   color: rgb(127, 184, 2);
   font-size: 25px;
   font-weight: 500;
   min-height: 50px;
   margin: 0 0 8px;
-
 }
 
 hr {
@@ -229,7 +217,7 @@ hr {
 
 }
 
-.main-top-col-left p {
+.main-col p {
   font-size: 15px;
   font-weight: 300;
   line-height: 25px;
