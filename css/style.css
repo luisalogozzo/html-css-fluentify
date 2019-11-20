@@ -9,6 +9,10 @@ header {
   background-color: #0D325A;
 }
 
+a {
+  color: #fff
+}
+
 .header-container {
   margin: 0 auto;
   width: 80%;
@@ -17,9 +21,35 @@ header {
   border: 1px solid green;
 }
 
-main {
+.header-container {
+  content: '';
+  display: table;
+  clear: both;
 }
 
+.header-left {
+  float: left;
+}
+
+.header-nav ul {
+  list-style: none;
+}
+.header-nav ul li {
+  display: inline;
+}
+.header-nav ul li a {
+  text-decoration: none;
+}
+
+
+
+.header-right {
+  float: right;
+}
+
+
+/* FINE HEADER */
+/* INIZIO MAIN */
 .main-header-container {
   width: 100%;
   background-color: #d3d3d3;
@@ -53,7 +83,8 @@ main {
   background-color: #fff;
   border: 1px solid green;
 }
-
+/* FINE MAIN */
+/* INIZIO FOOTER */
 .footer {
   height: 134px;
   width: 100%;
