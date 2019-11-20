@@ -174,25 +174,19 @@ nav a img {
 }
 
 .main-top-section {
-  height: 538px;
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid green;
-}
-
-.main-top-col-left {
-  float: left;
-  height: 538px;
-  width: calc(100% / 3);
+  border-bottom: 1px solid #898989;
+  border-width: 80%;
 }
 
 .main-col {
   float: left;
-  height: 538px;
   width: calc(100% / 3);
   text-align: center;
-  padding: 0px 15px;
+  padding: 25px 15px;
+
 }
 
 .main-col img {
@@ -209,14 +203,6 @@ nav a img {
   margin: 0 0 8px;
 }
 
-hr {
-  width: 75px;
-  height: 2px;
-  margin: 16px auto;
-  border-top: 2px solid #d3d3d3;
-
-}
-
 .main-col p {
   font-size: 15px;
   font-weight: 300;
@@ -226,16 +212,55 @@ hr {
   text-align: center;
 }
 
-
-
+hr {
+  width: 75px;
+  height: 2px;
+  margin: 16px auto;
+  border-top: 2px solid #d3d3d3;
+}
 
 .main-bottom-section {
-  height: 463px;
+  /* height: 463px; */
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
+
+.main-bottom-left {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background-image: url(../img/mountain.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 25px 0;
+
+}
+
+.main-bottom-right {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.main-bottom-right h2 {
+  color: #4a4a4a;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.main-bottom-right p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+  line-height: 21px;
+  color: #999;
+}
+
 /* FINE MAIN */
 /* INIZIO FOOTER */
 .footer {
