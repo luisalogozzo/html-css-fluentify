@@ -134,11 +134,20 @@ nav a img {
 }
 
 .main-header {
+  position: relative;
   height: 150px;
   width: 80%;
   margin: 0 auto;
   background-color: #d3d3d3;
   border: 1px solid green;
+}
+
+.main-title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .main-sections-container {
