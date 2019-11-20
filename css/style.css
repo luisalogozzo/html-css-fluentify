@@ -21,6 +21,12 @@ a {
   color: #fff;
 }
 
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .header-container {
   width: 100%;
   margin: 0 auto;
@@ -173,6 +179,27 @@ nav a img {
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid green;
+}
+
+.main-top-col-left {
+  float: left;
+  height: 538px;
+  width: calc(100% / 3);
+  background-color: yellow;
+}
+
+.main-top-col-center {
+  float: left;
+  height: 538px;
+  width: calc(100% / 3);
+  background-color: green;
+}
+
+.main-top-col-right {
+  height: 538px;
+  float: left;
+  width: calc(100% / 3);
+  background-color: pink;
 }
 
 .main-bottom-section {
